@@ -1,0 +1,119 @@
+# Python — Cache et fichiers compilés
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+.python-version
+
+# Variables d'environnement et secrets
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+
+# Streamlit (si utilisé)
+.streamlit/secrets.toml
+
+# Tests et couverture
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+coverage.xml
+test-results/
+
+# Qualité et analyse de code
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.pytype/
+.dmypy.json
+.pyre/
+
+# Build et packaging
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs et fichiers temporaires
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.cache/
+
+# Bases de données locales
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Fichiers de données locaux ou générés
+data/raw/
+data/processed/
+data/private/
+outputs/
+artifacts/
+exports/
+reports/generated/
+
+# Configuration IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.code-workspace
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Fichiers de sauvegarde
+*.backup
+*.old
+*.orig
+
+# Déploiement et infrastructure
+.vercel/
+.netlify/
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Fichiers spécifiques utilisateur
+*.local
+config.local.py
+settings.local.py
